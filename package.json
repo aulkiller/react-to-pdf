@@ -1,5 +1,5 @@
 {
-  "name": "react-to-pdf",
+  "name": "react-to-pdf-pro",
   "version": "1.0.1",
   "description": "Create PDF documents from React Components",
   "source": "src/index.ts",
@@ -13,14 +13,14 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ivmarcos/react-to-pdf.git"
+    "url": "https://github.com/aulkiller/react-to-pdf.git"
   },
   "author": "Marcos Andrei Ivanechtchuk",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/ivmarcos/react-to-pdf/issues"
+    "url": "https://github.com/aulkiller/react-to-pdf/issues"
   },
-  "homepage": "https://github.com/ivmarcos/react-to-pdf#readme",
+  "homepage": "https://github.com/aulkiller/react-to-pdf#readme",
   "scripts": {
     "start": "parcel examples/index.html",
     "build": "parcel build src/index.ts",
@@ -71,7 +71,7 @@
     "react-dom": ">=16.8"
   },
   "dependencies": {
-    "html2canvas": "^1.4.1",
+    "html2canvas-pro": "^1.5.8",
     "jspdf": "^2.5.1"
   },
   "alias": {
