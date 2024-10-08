@@ -5,6 +5,9 @@ Easily create PDF documents from React components.
 ## Install
 
 ```
+# Yarn
+yarn add react-to-pdf
+
 # NPM
 npm install --save react-to-pdf
 ```
@@ -33,7 +36,7 @@ npm install --save react-to-pdf
 **Using `usePDF` hook**
 
 ```jsx
-import { usePDF } from 'react-to-pdf-pro';
+import { usePDF } from 'react-to-pdf';
 
 const Component = () => {
    const { toPDF, targetRef } = usePDF({filename: 'page.pdf'});
@@ -54,7 +57,7 @@ const Component = () => {
 
 ```jsx
 import { useRef } from 'react';
-import generatePDF from 'react-to-pdf-pro';
+import generatePDF from 'react-to-pdf';
 
 const Component = () => {
    const targetRef = useRef();
@@ -73,7 +76,7 @@ const Component = () => {
 **Advanced options**
 
 ```jsx
-import generatePDF, { Resolution, Margin } from 'react-to-pdf-pro';
+import generatePDF, { Resolution, Margin } from 'react-to-pdf';
 
 const options = {
    // default is `save`

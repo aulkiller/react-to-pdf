@@ -50,7 +50,7 @@
 Before (v0):
 
 ```jsx
-import ReactToPdf from 'react-to-pdf-pro'
+import ReactToPdf from 'react-to-pdf'
 const Component = () => (
     const handleComplete = () => {
         console.log('PDF has been generated')
@@ -73,7 +73,7 @@ const Component = () => (
 After (v1):
 
 ```jsx
-import { usePDF }  from 'react-to-pdf-pro'
+import { usePDF }  from 'react-to-pdf'
 
 const Component = () => (
     const { toPDF, targetRef } = usePDF();
